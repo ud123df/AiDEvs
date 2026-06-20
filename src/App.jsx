@@ -1322,7 +1322,7 @@ function PromptLabPage() {
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API = "http://127.0.0.1:8000";
+  const API = "https://prompt-engineer-agent-4.onrender.com";
 
   const registerUser = async () => {
 
